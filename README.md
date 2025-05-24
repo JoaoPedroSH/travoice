@@ -3,28 +3,63 @@
 ## Estrutura do Projeto
 
 ```
-tradutor_voz/
-├── src/
-│   ├── __init__.py
-│   ├── main.py
-│   ├── core/
-│   │   ├── __init__.py
-│   │   ├── translator.py
-│   │   ├── tts_engine.py
-│   │   └── hotkey_manager.py
-│   ├── config/
-│   │   ├── __init__.py
-│   │   ├── settings.py
-│   │   └── languages.py
-│   └── utils/
-│       ├── __init__.py
-│       ├── clipboard.py
-│       └── logger.py
-├── config/
-│   └── config.json
-├── requirements.txt
+travoice/
+├── .gitattributes
+├── LICENSE
 ├── README.md
-└── run.py
+├── build
+    └── travoice
+    │   ├── Analysis-00.toc
+    │   ├── EXE-00.toc
+    │   ├── PKG-00.toc
+    │   ├── PYZ-00.pyz
+    │   ├── PYZ-00.toc
+    │   ├── base_library.zip
+    │   ├── localpycs
+    │       ├── pyimod01_archive.pyc
+    │       ├── pyimod02_importers.pyc
+    │       ├── pyimod03_ctypes.pyc
+    │       ├── pyimod04_pywin32.pyc
+    │       └── struct.pyc
+    │   ├── travoice.pkg
+    │   ├── warn-travoice.txt
+    │   └── xref-travoice.html
+├── config.json
+├── dist
+    └── travoice.exe
+├── icon.ico
+├── install.md
+├── launcher.py
+├── requirements.txt
+├── run.py
+├── src
+    ├── __pycache__
+    │   └── main.cpython-313.pyc
+    ├── config
+    │   ├── __pycache__
+    │   │   └── settings.cpython-313.pyc
+    │   ├── init.py
+    │   ├── languages.py
+    │   └── settings.py
+    ├── core
+    │   ├── __pycache__
+    │   │   ├── hotkey_manager.cpython-313.pyc
+    │   │   ├── translator.cpython-313.pyc
+    │   │   └── tts_engine.cpython-313.pyc
+    │   ├── hotkey_manager.py
+    │   ├── init.py
+    │   ├── translator.py
+    │   └── tts_engine.py
+    ├── init.py
+    ├── main.py
+    └── utils
+    │   ├── __pycache__
+    │       ├── clipboard.cpython-313.pyc
+    │       └── logger.cpython-313.pyc
+    │   ├── clipboard.py
+    │   ├── init.py
+    │   └── logger.py
+└── travoice.spec
 ```
 
 ## Funcionalidades Principais
