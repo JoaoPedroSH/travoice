@@ -1,0 +1,57 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Builds e empacotamento
+build/
+dist/
+*.spec
+*.pyz
+*.pkg
+*.toc
+*.zip
+*.html
+*.txt
+*.exe
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Configurações e logs locais
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# IDEs e editores
+.vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Cache de ferramentas
+.mypy_cache/
+.pytest_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# PyInstaller
+*.manifest
+
+# Arquivos extras do PyCharm, VSCode, Cursor
+.cursorignore
+.cursorindexingignore
+
+# Arquivos auxiliares
+.pdm.toml
+.pdm-python
+.pdm-build/
