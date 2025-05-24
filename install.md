@@ -45,4 +45,4 @@
     pyinstaller --noconsole --onefile --add-data "icon.ico;." --name travoice launcher.py
     ```
     --onefile: gera um único .exe
-    --noconsole: oculta o terminal (se for app com interface gráfica). Remova essa flag se quiser o terminal.
+    --noconsole: oculta o terminal
