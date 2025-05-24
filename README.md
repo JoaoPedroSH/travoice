@@ -1,6 +1,6 @@
 # TRAVOICE - Tradutor com Voz
 
-![Demonstração do Projeto](doc/demo.mp4)
+![Demonstração do Projeto](doc/demo.gif)
 
 ## Estrutura do Projeto
 
