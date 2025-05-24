@@ -1,0 +1,29 @@
+{
+    "languages": {
+        "source": "auto",
+        "target": "pt"
+    },
+    "tts": {
+        "rate": 180,
+        "volume": 0.9,
+        "voice_preference": [
+            "portuguese",
+            "brasil",
+            "pt-br"
+        ]
+    },
+    "hotkeys": {
+        "copy": "ctrl+c",
+        "translate": "alt+t",
+        "stop": "alt+i",
+        "test": "alt+v",
+        "menu": "alt+m",
+        "config": "alt+c",
+        "quit": "ctrl+q"
+    },
+    "general": {
+        "auto_detect_language": true,
+        "show_preview": true,
+        "max_preview_length": 50
+    }
+}
